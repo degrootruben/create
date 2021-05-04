@@ -9,7 +9,7 @@ Denk aan word waarbij hij dan een map aanmaakt met het formaat *getal* *naam van
 - Ook mogelijkheid om alles in te stellen via commands. Denk aan target folders van alle code commands etc.
 
 TODO:
-[ ] Soorten projecten:
+[ ] Basic setup:
     - school
         subcat:
             > word
@@ -30,3 +30,6 @@ TODO:
             > genre
             > abl of fl
     - notulen?
+[ ] Dot file config
+    - folder locatie instellen
+    
