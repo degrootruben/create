@@ -25,7 +25,8 @@ int main(int argc, char *argv[]) {
         } else if (arg1 == "music" || arg1 == "m") {  // music
             mode = PROJECT;
             project = MUSIC;
-        } else if (arg1 == "-h" || arg1 == "h" || arg1 == "help") {              // help
+        } else if (arg1 == "-h" || arg1 == "h" 
+                    || arg1 == "help") {              // help
             mode = HELP;
         }
     } else {
@@ -36,6 +37,9 @@ int main(int argc, char *argv[]) {
         if (argc > 2) {
             string projectName = argv[2];
 
+            if (project == SCHOOL) {
+                
+            }
             fs::create_directory(projectName);
         } else {
             cout << "Please provide a project name!" << endl;
