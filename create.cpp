@@ -48,6 +48,7 @@ int main(int argc, char *argv[]) {
         cout << "Help menu" << endl;
     } else if (mode == 0) {
         cout << "Error: mode is 0." << endl;
+        cin.get();
         return 1;
     }
 
